@@ -48,4 +48,32 @@ La parte más interesante fue la interpretación de los datos la cuál pudimos c
  ya tiene instalado, debido a que el asistente funge como una "interfaz" interactiva multiplataforma, puede operar en distintos canales simultaneamente.
  
  Pueden revisar el diagrama de funcionamiento de nuestra propuesta.
+ 
 ![diagramateleton](https://user-images.githubusercontent.com/9124597/46584171-9a87ec80-ca25-11e8-9b49-b40459f745fc.png)
+
+## Esto hicimos en el hackatón...
+
+Bueno llegamos y tardamos en entender la problemática y la solución que de verdad podría resolver el problema, más alla de hacer proyecciones de supuestos, presentar una herramienta que si bien la interfaz es sencilla, ha dado resultados comprobados para el mismo sector en distintas empresas tales como (Telmex, Dominos Pizza, Profeco, ect).
+
+Hicimos:
+ * Limpieza y Análisis de la Información proporcionada por Teletón (Python).
+ * Normalización de la Información y comienzo de trabajo con Qlik.
+ * Replanteamos los requerimientos que nos llevaran a una solución más alla de un dashboard.
+ * Trabajo de Información con Qlik y Representación Gráfica.
+ * Análisis del Target y las tecnologías que utilizan.
+ * Diseño e Implementación de un API propia, la cuál ya está en Heroku, realizada con Flask.
+ * Desarrollo de la "Interfaz Multiplataforma", Asistente Inteligente (Chatbot)
+   * Implementación en DialogFlow.
+   * Implementación de Firebase Functions (Para el API, Scrapping y Stripe)
+   * Vinculación de Qlik con Firebase (Aun en eso)
+   * Despliegue del Asistente en Multiples Plataformas (Fb Messenger y Assistant)
+   
+Decidimos utilizar DialogFlow ya que tiene mecanismos de aprendizaje continuo integrado, lo que nos permite ofrecer una ventana de "Pregunta lo que quieras" a los usuarios y aprender de cada una de las interacciones que tienen con él. 
+
+De manera tal que podemos obtener de primera mano las inquietudes de nuestro target específico y diseñar estrategias puntuales.
+   
+## A futuro...
+ * Nos gustaría mucho poder realizar donaciones desde el asistente aunque entendemos el lío que todo conlleva.
+ * Estadísticas full RT 
+ * Que fuera una solución REAL 
+ 
